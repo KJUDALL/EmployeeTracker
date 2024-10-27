@@ -1,7 +1,7 @@
 
-  # Vehicle Builder
+  # Employee Tracker
   ## Description 
-  Have you ever wanted to build a vehicle from within the terminal? Well then this cli app is just for you! By running npm in the terminal, a user will be able to edit prompt messages and account for vehicles of all types, namely cars, bikes and trucks. The goal is to provide an all-inclusive command-line solution for vehicle owners globally. One that focuses on a specific vehicle, and it's abilities (ie. trucks being able to tow, motorbikes only having 2 wheels, etc.)
+  Are you a business owner who needs help tracking your employee information? Well look no further! This app is precisely what you need to increase efficiency, reduce stress, and maintain company-wide organization for future business planning. This command-line application will allow an individual to view and manage departments, roles and employees within the company - in other words, a content management system (CMS).
   ## Table of Contents
   - [Description](#description)
   - [Installation](#installation)
@@ -23,5 +23,5 @@
   You can test this app by cloning the repo, installing npm, and running 'npm start' in the terminal. If it's working correctly, you should see the appropriate car prompt messages appear in your terminal for you to answer. If not, feel free to contact me at my email below. 
   ## Questions
     If you would like to contact me, you can do so at the links below. 
-  If any questions come up in the future, you can contact me directly at 4kenzie@gmail.com. If you would like to view this repo, or check out any of my other work, visit my GitHub at [kjudall](https://github.com/kjudall/).
+  If any questions come up in the future, you can contact me directly at myemail@gmail.com If you would like to view this repo, or check out any of my other work, visit my GitHub at [kjudall](https://github.com/kjudall/).
     
