@@ -1,3 +1,0 @@
-DROP DATABASE IF EXISTS empl_track;
-
-CREATE DATABASE empl_track;
