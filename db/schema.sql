@@ -12,7 +12,7 @@ CREATE DATABASE empl_track;
 -- PK = id
 CREATE TABLE department (
 id SERIAL PRIMARY KEY,
-name VARCHAR(30) UNIQUE NOT NULL
+dept_name VARCHAR(30) UNIQUE NOT NULL
 );
 
 -- create role table
@@ -21,7 +21,7 @@ CREATE TABLE role (
 id SERIAL PRIMARY KEY,
 title VARCHAR(30) UNIQUE NOT NULL,
 salary DECIMAL NOT NULL, 
-department INTEGER,
+department_id INTEGER,
 FOREIGN KEY (department)
 REFERENCES department(id)
 ON DELETE SET NULL 

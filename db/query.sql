@@ -1,12 +1,12 @@
 -- fx to see list of all employees
--- should show e.id, e.first name, e.last name, r.title, d.name, r.salary and e.e.manager first and last name
+-- should show e.id, e.first name, e.last name, r.title, d.dept_name, r.salary and e.e.manager first and last name
 
 -- LEFT JOIN to combine 
 SELECT 
 e.id, 
 e.first_name,
 e.last_name,
-r.title,d.name AS "Department Name", 
+r.title,d.dept_name AS "Department Name", 
 r.salary, 
 CASE 
     WHEN em.id IS NULL THEN 'NULL'
@@ -20,19 +20,19 @@ LEFT JOIN
 employee em ON e.manager_id = em.id;
 
 -- fx to see list of all roles 
--- should show r.id, r.title, d.name and r.salary 
+-- should show r.id, r.title, d.dept_name and r.salary 
 SELECT r.id, 
 r.title, 
-d.name AS "Department Name", 
+d.dept_name AS "Department Name", 
 r.salary 
 FROM role r
 INNER JOIN department d 
 ON r.department = d.id ;
 
 -- fx to see list of all departments 
--- should show d.id and d.name
+-- should show d.id and d.dept_name
 SELECT d.id, 
-d.name AS "Department Name"
+d.dept_name AS "Department Name"
 FROM department d;
 
 

@@ -1,6 +1,6 @@
 -- use this file to insert data into the pre-created fields from schema.sql file
 -- add field data to dept table 
-INSERT INTO department (name) 
+INSERT INTO department (dept_name) 
 VALUES ('Human Resources'),
 ('Customer Success'),
 ('Engineering'), 

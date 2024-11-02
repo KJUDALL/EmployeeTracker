@@ -2,11 +2,11 @@
   "name": "10-challenge",
   "version": "1.0.0",
   "description": "Are you a business owner who needs help tracking your employee information? Well look no further! This app is precisely what you need to increase efficiency, reduce stress, and maintain company-wide organization for future business planning. This command-line application will allow an individual to view and manage departments, roles and employees within the company - in other words, a content management system (CMS).",
-  "main": "index.js",
+  "main": "src/index.js",
+  "type": "module",
   "scripts": {
-    "build": "npx tsc",
-    "start": "npm run build && node dist/server.js --ignore client",
-    "dev": "npx nodemon",
+    "start": "node src/index.js",
+    "dev": "npx nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
